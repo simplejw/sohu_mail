@@ -23,7 +23,7 @@ for eachline in fileinput.input(AddressFile):
   
 # 不同于登录SendCloud站点的帐号，您需要登录后台创建发信子帐号，使用子帐号和密码才可以进行邮件的发送。
     params = {"api_user": "Mail_pl", \
-        "api_key" : "Wj3iH7TLScHy1s",\
+        "api_key" : "WjLScHy1s",\
         "to" : address[1], \
         "from" : "noreply@service.com", \
         "fromname" : "4477", \
